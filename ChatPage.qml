@@ -252,7 +252,7 @@ ApplicationWindow {
                         var userInfo = usersModel.get(root.userId);
                         if (userInfo && userInfo.login && (userInfo.iconIndex || userInfo.iconBase64)) {
                             header.login = userInfo.login;
-                            header.source = userInfo.iconIndex ? `qml:/icon${userInfo.iconIndex}.png` : utils.getImageUrlFromBase64(userInfo.iconBase64);
+                            header.source = userInfo.iconIndex ? `qrc:/icon${userInfo.iconIndex}.png` : utils.getImageUrlFromBase64(userInfo.iconBase64);
                             running = false;
                             return;
                         }
@@ -432,7 +432,7 @@ ApplicationWindow {
                                         var userInfo = usersModel.get(userId);
                                         if (userInfo && userInfo.login && (userInfo.iconIndex || userInfo.iconBase64)) {
                                             messageView.login = userInfo.login;
-                                            messageView.source = userInfo.iconIndex ? `qml:/icon${userInfo.iconIndex}.png` : utils.getImageUrlFromBase64(userInfo.iconBase64);
+                                            messageView.source = userInfo.iconIndex ? `qrc:/icon${userInfo.iconIndex}.png` : utils.getImageUrlFromBase64(userInfo.iconBase64);
                                             running = false;
                                             return;
                                         }
