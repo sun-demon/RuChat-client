@@ -1,0 +1,25 @@
+<RCC>
+    <qresource prefix="/">
+        <file>attach_file.png</file>
+        <file>chat.png</file>
+        <file>file.png</file>
+        <file>forum.png</file>
+        <file>icon1.png</file>
+        <file>icon2.png</file>
+        <file>icon3.png</file>
+        <file>lock.png</file>
+        <file>logout.png</file>
+        <file>person.png</file>
+        <file>send.png</file>
+        <file>main.qml</file>
+        <file>ChatPage.qml</file>
+        <file>LoginPage.qml</file>
+        <file>RegisterPage.qml</file>
+        <file>AuthenticationButton.qml</file>
+        <file>AuthenticationHeader.qml</file>
+        <file>AuthenticationInput.qml</file>
+        <file>ConnectionPopup.qml</file>
+        <file>SelectIconSection.qml</file>
+        <file>WaitPopup.qml</file>
+    </qresource>
+</RCC>
